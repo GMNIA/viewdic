@@ -347,7 +347,7 @@ if __name__ == '__main__':
     el_bottom_0 = step_0.el_bottom()
 
     # For testing, we'll only load one step file
-    for step_file in file_list[0]:    
+    for step_file in file_list[:1]:    
         path = '\\' + sub_folder_A + '\\' + step_file
         step_i = step(path, path_0)
 
